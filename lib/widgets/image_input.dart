@@ -43,7 +43,7 @@ class _ImageInputState extends State<ImageInput> {
       children: <Widget>[
         Container(
           width: 400,
-          height: 200,
+          height: 120,
           alignment: Alignment.center,
           decoration: BoxDecoration(
             border: Border.all(width: 0.7, color: Colors.grey)
