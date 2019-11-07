@@ -43,7 +43,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add Place'),
+        title: const Text('Add Place'),
       ),
       body: Column(
 //        mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -55,7 +55,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
               child: Column(
                 children: <Widget>[
                   TextField(
-                    decoration: InputDecoration(labelText: 'Title'),
+                    decoration: const InputDecoration(labelText: 'Title'),
                     controller: _titleController,
                   ),
                   SizedBox(height: 10),
@@ -73,7 +73,7 @@ class _AddPlaceScreenState extends State<AddPlaceScreen> {
                 _savePlace()
               ,
               icon: Icon(Icons.add),
-              label: Text('Add Place'),
+              label: const Text('Add Place'),
               color: Theme.of(context).accentColor,
               elevation: 15,
               materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,

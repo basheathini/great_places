@@ -9,7 +9,7 @@ class PlacesListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dope Places'),
+        title: const Text('Dope Places'),
         actions: <Widget>[
           IconButton(
             icon: Icon(Icons.add),

@@ -56,7 +56,7 @@ class _ImageInputState extends State<ImageInput> {
           height: 100,
             child: FlatButton.icon(
               icon: Icon(Icons.camera),
-              label: Text('Take Image'),
+              label: const Text('Take Image'),
               textColor: Theme.of(context).primaryColor,
               splashColor: Theme.of(context).accentColor,
               onPressed: () => _launchCamera(),

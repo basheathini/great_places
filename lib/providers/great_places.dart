@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:flutter/foundation.dart';
 import '../models/place.dart';
 import '../helpers/db_helper.dart';
-import '../models/place.dart';
 import '../helpers/location_helper.dart';
 
 class GreatPlace with ChangeNotifier{
